@@ -40,7 +40,7 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.cosp.settings.R;
 
- public class AdvancedControls extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
+ public class misc extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     private static final String KEY_DEVICE_PART = "advanced_controls";
     private static final String KEY_DEVICE_PART_PACKAGE_NAME = "com.thht.settings.device";
