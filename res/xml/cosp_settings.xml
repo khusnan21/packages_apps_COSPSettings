@@ -79,4 +79,10 @@
             android:fragment="com.cosp.settings.fragments.ReadingModeSettings"
             android:icon="@drawable/ic_settings_readingmode"/>
 
+	<!-- Misc -->
+    <Preference
+            android:key="misc_category"
+            android:title="@string/misc_title"
+            android:fragment="com.cosp.settings.fragments.misc"
+
 </PreferenceScreen>
