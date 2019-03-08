@@ -59,4 +59,5 @@ import com.cosp.settings.R;
     public int getMetricsCategory() {
         return MetricsEvent.COSP_SETTINGS;
     }
+ }
 }
