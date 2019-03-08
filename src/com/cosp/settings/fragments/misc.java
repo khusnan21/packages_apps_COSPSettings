@@ -54,6 +54,10 @@ import com.cosp.settings.R;
         if (!com.cosp.settings.Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
             getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
         }
+    @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.COSP_SETTINGS;
+    }
  }
 }
  
