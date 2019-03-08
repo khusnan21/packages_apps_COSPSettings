@@ -155,5 +155,7 @@
     <string name="readingmode_mode_enabled">Enable reading mode</string>
     <string name="readingmode_mode_enabled_summary">Reading mode will optimise the screen colour temperature and calibration for text reading, which can improve the reading experience.</string>
 
-    
+    <!-- Advanced Controls -->
+    <string name="advanced_controls_title">Advanced Controls</string>   
+	
 </resources>
