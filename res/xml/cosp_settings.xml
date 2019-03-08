@@ -83,6 +83,6 @@
     <Preference
             android:key="misc_category"
             android:title="@string/advanced_controls_title"
-            android:fragment="com.cosp.settings.fragments.misc">
+            android:fragment="com.cosp.settings.fragments.misc"/>
 
 </PreferenceScreen>
