@@ -31,10 +31,10 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.cosp.settings.R;
 
-public class Misc extends SettingsPreferenceFragment
+public class misc extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
-    public static final String TAG = "Misc";
+    public static final String TAG = "misc";
 
     private static final String KEY_DEVICE_PART = "advanced_controls";
     private static final String KEY_DEVICE_PART_PACKAGE_NAME = "com.thht.settings.device";
