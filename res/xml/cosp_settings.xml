@@ -81,8 +81,8 @@
 
 	<!-- Misc -->
     <Preference
-            android:key="advanced_controls"
-            android:title="@string/advanced_controls_title"
+            android:key="misc"
+            android:title="@string/misc_title"
             android:fragment="com.cosp.settings.fragments.misc"
 		android:icon="@drawable/ic_settings_misc"
 		
