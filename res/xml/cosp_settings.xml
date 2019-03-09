@@ -86,6 +86,11 @@
             android:fragment="com.cosp.settings.fragments.misc"
 		android:icon="@drawable/ic_settings_misc"/>
 		
-
+    <!-- Notifications -->
+    <Preference
+        android:key="notifications_category"
+        android:title="@string/notifications_title"
+        android:icon="@drawable/ic_settings_notifications"
+        android:fragment="com.liquid.liquidlounge.fragments.NotificationsSettings" />
 
 </PreferenceScreen>
