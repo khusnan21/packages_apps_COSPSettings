@@ -26,6 +26,8 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 
+import com.cosp.settings.R;
+
 import java.util.Arrays;
 import java.util.HashSet;
 
