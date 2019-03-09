@@ -91,6 +91,6 @@
         android:key="notifications_category"
         android:title="@string/notifications_title"
         android:icon="@drawable/ic_settings_notifications"
-        android:fragment="com.liquid.liquidlounge.fragments.NotificationsSettings" />
+        android:fragment="com.cosp.settings.fragments.NotificationsSettings" />
 
 </PreferenceScreen>
