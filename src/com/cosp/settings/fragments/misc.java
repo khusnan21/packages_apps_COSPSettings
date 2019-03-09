@@ -45,7 +45,7 @@ public class misc extends SettingsPreferenceFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.cosp_settings);
+        addPreferencesFromResource(R.xml.misc);
 
         // Advanced Controls
         if (!com.cosp.settings.preferences.Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
