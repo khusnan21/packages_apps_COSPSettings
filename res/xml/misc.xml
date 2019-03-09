@@ -16,7 +16,7 @@
     android:title="@string/readingmode_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory android:title="@string/advanced_controls_title">
+    <PreferenceCategory android:title="@string/misc_title">
 
         <!-- Advanced Controls -->
     	<Preference
