@@ -85,9 +85,7 @@
             android:title="@string/advanced_controls_title"
             android:fragment="com.cosp.settings.fragments.misc"
 		android:icon="@drawable/ic_settings_misc"
-	<intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.thht.settings.device"
-            android:targetClass="com.thht.settings.device.DeviceSettings"/>	
-	</Preference>
+		
+
 
 </PreferenceScreen>
