@@ -33,7 +33,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 
 
-public class Misc extends SettingsPreferenceFragment
+public class misc extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     public static final String TAG = "misc";
@@ -45,7 +45,7 @@ public class Misc extends SettingsPreferenceFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.misc);
+        addPreferencesFromResource(R.xml.cosp_settings);
 
         // Advanced Controls
         if (!com.cosp.settings.preferences.Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
