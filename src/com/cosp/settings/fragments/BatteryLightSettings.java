@@ -27,7 +27,7 @@ import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference;
+import com.cosp.settings.preferences.SystemSettingSwitchPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -128,7 +128,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.COSP_SETTINGS;
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
